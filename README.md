@@ -103,33 +103,32 @@ npm run nft:burn
   - Created a Metadata account on the mint address with Token name and image
     * *Transaction ID* [2VQa6zmi5pDq58kDPs5KKM5jrVvUNsaaQmBgz49XD4D6a3B4g2fQW9guz6wVP5jcg7yFc7QEBX6RF5pEM8pNEx92](https://solscan.io/tx/2VQa6zmi5pDq58kDPs5KKM5jrVvUNsaaQmBgz49XD4D6a3B4g2fQW9guz6wVP5jcg7yFc7QEBX6RF5pEM8pNEx92?cluster=devnet)
 
-
-
   - Initialized a token account and minted a fixed supply of 400 Tokens.
-    * *mint txid:* `5Xoxe23HPnnHg4waqfpxg6vr1qTcyMbYn4TZs7dg4QrRfqRdrMkJKvRGS6KJHeGFDAFWFkNggb6k2cchxNw1Eswv`
+    * *mint txid:* [5Xoxe23HPnnHg4waqfpxg6vr1qTcyMbYn4TZs7dg4QrRfqRdrMkJKvRGS6KJHeGFDAFWFkNggb6k2cchxNw1Eswv](https://solscan.io/tx/5Xoxe23HPnnHg4waqfpxg6vr1qTcyMbYn4TZs7dg4QrRfqRdrMkJKvRGS6KJHeGFDAFWFkNggb6k2cchxNw1Eswv?cluster=devnet)
 
   - Successfully transferred a portion of the tokens to a recipient wallet.
-    * *Txid:* `4zNgnTsC16SGCioPHZ7B6iPED4pmd4gQv4tyjMrVWZ2yiP8jrixL4M9S5tAQAVjy9yzGtkCiaWZmojwnC5JurUKg`
+    * *Txid:* [4zNgnTsC16SGCioPHZ7B6iPED4pmd4gQv4tyjMrVWZ2yiP8jrixL4M9S5tAQAVjy9yzGtkCiaWZmojwnC5JurUKg](https://solscan.io/tx/4zNgnTsC16SGCioPHZ7B6iPED4pmd4gQv4tyjMrVWZ2yiP8jrixL4M9S5tAQAVjy9yzGtkCiaWZmojwnC5JurUKg?cluster=devnet)
 
 
 - [ ] **2. Mint an NFT using MPL Core**
   - Created a lightweight Metaplex MPL Core Asset via `@metaplex-foundation/mpl-core`.
   - Integrated off-chain metadata using Umi and Irys.
-    * *Tx signature:* `22Yorz96A21qPPRjasVs1kyoDdSKMr9RWhXeGHQAYxDmf2uPW1VLVWPRJwtW7ASrR9cRYzm5DdD9XxU8ZHREKM88`
+    * *Tx signature:* [22Yorz96A21qPPRjasVs1kyoDdSKMr9RWhXeGHQAYxDmf2uPW1VLVWPRJwtW7ASrR9cRYzm5DdD9XxU8ZHREKM88](https://solscan.io/tx/22Yorz96A21qPPRjasVs1kyoDdSKMr9RWhXeGHQAYxDmf2uPW1VLVWPRJwtW7ASrR9cRYzm5DdD9XxU8ZHREKM88?cluster=devnet)
     * *Asset Address:* `B1zeQGnmLgmKA6wc1mKTDkwNoeZ2xNDrw6ZqZiL8o1h5`
 
 - [ ] **3. Update the NFT's Name and Metadata**
   - Executed a metadata update transaction using the authorized update authority.
   - Successfully mutated the asset name and properties on-chain.
-    * *Update TX ID:* `CFfMcPpq3qbVCyVv5V2JK5DBH9eJB2o8ABYiaVdssoLLUzbmdsn8rxmnAnEhWsRKQLbEqrMDVh7ry5WQyEUpvuX`
+    * *Update TX ID:* [CFfMcPpq3qbVCyVv5V2JK5DBH9eJB2o8ABYiaVdssoLLUzbmdsn8rxmnAnEhWsRKQLbEqrMDVh7ry5WQyEUpvuX](https://solscan.io/tx/CFfMcPpq3qbVCyVv5V2JK5DBH9eJB2o8ABYiaVdssoLLUzbmdsn8rxmnAnEhWsRKQLbEqrMDVh7ry5WQyEUpvuX?cluster=devnet)
 
 - [ ] **4. Transfer the NFT to a new Wallet**
   - Successfully transferred the NFT to a new wallet
-    * *Transfer Tx ID:* `8HMHDVoZTbPyucjnJ9AJhiDd9Wyj6JxdK6LE2vvPdhoFdxmL6Jyhm1oDhQ4QP4xezp62yGoTQPLgpNQEny87Kwe`
+    * *Transfer Tx ID:* [8HMHDVoZTbPyucjnJ9AJhiDd9Wyj6JxdK6LE2vvPdhoFdxmL6Jyhm1oDhQ4QP4xezp62yGoTQPLgpNQEny87Kwe](https://solscan.io/tx/8HMHDVoZTbPyucjnJ9AJhiDd9Wyj6JxdK6LE2vvPdhoFdxmL6Jyhm1oDhQ4QP4xezp62yGoTQPLgpNQEny87Kwe?cluster=devnet)
 
 - [ ] **5. Burn the NFT**
   - Only the NFT owner can destroy the NFT, hence the new Owner was asked to transfer back the NFT
-    * *Burn Tx ID:* `nTTzxkxMocPkubQiShVZSEWoiK9Zu28oqDcaLrvQsLcR5eh3A7w3zdQv1t89CeDTsia9865NUJGZU1di2JjHd35`
+    * *Burn Tx ID:* [nTTzxkxMocPkubQiShVZSEWoiK9Zu28oqDcaLrvQsLcR5eh3A7w3zdQv1t89CeDTsia9865NUJGZU1di2JjHd35](https://solscan.io/tx/nTTzxkxMocPkubQiShVZSEWoiK9Zu28oqDcaLrvQsLcR5eh3A7w3zdQv1t89CeDTsia9865NUJGZU1di2JjHd35?cluster=devnet)
+
 
 ---
 
