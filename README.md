@@ -97,19 +97,19 @@ npm run nft:burn
 ### Core Tasks
 - [ ] **1. Mint and Transfer your own SPL Token**
   - Generated a unique mint address using `@solana-program/token` and initialized a mint account.
-  - *Mint address:* `E9hEjM9x1qgVRXETtzTBVEkc6pFhDqhQfWkHspWjcgBo` 
-  - *Transaction* `[https://solscan.io/tx/4MPR1oFNXLz7YAE5tQYUZ6Ct7ne7pL2cQCZDA7AGVnz5rcgRFRy3ku7pZYZzVdr4eYaYXjfj5Ehdzf2v9W7aZ8EC?cluster=devnet]`
+    *Mint address:* `E9hEjM9x1qgVRXETtzTBVEkc6pFhDqhQfWkHspWjcgBo` 
+    *Transaction ID* `[4MPR1oFNXLz7YAE5tQYUZ6Ct7ne7pL2cQCZDA7AGVnz5rcgRFRy3ku7pZYZzVdr4eYaYXjfj5Ehdzf2v9W7aZ8EC](https://solscan.io/tx/4MPR1oFNXLz7YAE5tQYUZ6Ct7ne7pL2cQCZDA7AGVnz5rcgRFRy3ku7pZYZzVdr4eYaYXjfj5Ehdzf2v9W7aZ8EC?cluster=devnet)`
 
   - Created a Metadata account on the mint address with Token name and image
-   - *Transaction* `[https://solscan.io/tx/2VQa6zmi5pDq58kDPs5KKM5jrVvUNsaaQmBgz49XD4D6a3B4g2fQW9guz6wVP5jcg7yFc7QEBX6RF5pEM8pNEx92?cluster=devnet]`
+    *Transaction ID* `[2VQa6zmi5pDq58kDPs5KKM5jrVvUNsaaQmBgz49XD4D6a3B4g2fQW9guz6wVP5jcg7yFc7QEBX6RF5pEM8pNEx92](https://solscan.io/tx/2VQa6zmi5pDq58kDPs5KKM5jrVvUNsaaQmBgz49XD4D6a3B4g2fQW9guz6wVP5jcg7yFc7QEBX6RF5pEM8pNEx92?cluster=devnet)`
 
 
 
   - Initialized a token account and minted a fixed supply of 400 Tokens.
-  - *mint txid:* `5Xoxe23HPnnHg4waqfpxg6vr1qTcyMbYn4TZs7dg4QrRfqRdrMkJKvRGS6KJHeGFDAFWFkNggb6k2cchxNw1Eswv`
+    *mint txid:* `5Xoxe23HPnnHg4waqfpxg6vr1qTcyMbYn4TZs7dg4QrRfqRdrMkJKvRGS6KJHeGFDAFWFkNggb6k2cchxNw1Eswv`
 
   - Successfully transferred a portion of the tokens to a recipient wallet.
-  - *Txid:* `4zNgnTsC16SGCioPHZ7B6iPED4pmd4gQv4tyjMrVWZ2yiP8jrixL4M9S5tAQAVjy9yzGtkCiaWZmojwnC5JurUKg`
+    *Txid:* `4zNgnTsC16SGCioPHZ7B6iPED4pmd4gQv4tyjMrVWZ2yiP8jrixL4M9S5tAQAVjy9yzGtkCiaWZmojwnC5JurUKg`
 
 
 - [ ] **2. Mint an NFT using MPL Core**
@@ -148,6 +148,7 @@ Below are mandatory screenshots proving the scripts execute correctly and transa
 
 - [ ] **spl_mint:**
 ![Tx Id: 5Xoxe23HPnnHg4waqfpxg6vr1qTcyMbYn4TZs7dg4QrRfqRdrMkJKvRGS6KJHeGFDAFWFkNggb6k2cchxNw1Eswv](./screenshots/spl_mint.png)
+![NFT on explorer](./screenshots/crm_on_explorer.png)
 
 - [ ] **spl_transfer:**
 ![Tx Id: 4zNgnTsC16SGCioPHZ7B6iPED4pmd4gQv4tyjMrVWZ2yiP8jrixL4M9S5tAQAVjy9yzGtkCiaWZmojwnC5JurUKg](./screenshots/spl_transfer.png)
@@ -155,7 +156,6 @@ Below are mandatory screenshots proving the scripts execute correctly and transa
 - [ ] **nft_mint:**
 ![Tx Id: 22Yorz96A21qPPRjasVs1kyoDdSKMr9RWhXeGHQAYxDmf2uPW1VLVWPRJwtW7ASrR9cRYzm5DdD9XxU8ZHREKM88](./screenshots/nft_mint.png)
 
-![NFT on explorer](./screenshots/crm_on_explorer.png)
 
 - [ ] **nft_update:**
 ![Tx Id: CFfMcPpq3qbVCyVv5V2JK5DBH9eJB2o8ABYiaVdssoLLUzbmdsn8rxmnAnEhWsRKQLbEqrMDVh7ry5WQyEUpvuX](./screenshots/nft_update.png)
