@@ -5,7 +5,7 @@ A complete implementation of Solana token operations built with modern TypeScrip
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 - [Prerequisites & Environment](#prerequisites--environment)
 - [Installation & Setup](#installation--setup)
 - [Project Scripts & Usage](#project-scripts--usage)
@@ -16,7 +16,7 @@ A complete implementation of Solana token operations built with modern TypeScrip
 
 ---
 
-## 🛠️ Prerequisites & Environment
+## Prerequisites & Environment
 
 Ensure you have the following tools installed globally on your machine:
 * **Node.js** (v18.x or higher)
@@ -50,7 +50,7 @@ Ensure you have the following tools installed globally on your machine:
 
 ---
 
-## 💡 Project Scripts & Usage
+## Project Scripts & Usage
 
 Run the scripts in sequential order to complete the pipeline:
 
@@ -132,7 +132,7 @@ npm run nft:burn
 
 ---
 
-## 📊 Verification & Testing
+## Verification & Testing
 
 All execution scripts output verification logs directly to the console once instructions are written to the block.
 
@@ -171,7 +171,7 @@ Below are mandatory screenshots proving the scripts execute correctly and transa
 
 ---
 
-## 🗒️ Repository Structure
+## Repository Structure
 
 ```text
 ├── src/
@@ -194,7 +194,7 @@ Below are mandatory screenshots proving the scripts execute correctly and transa
 
 ---
 
-## 📫 Contact
+## Contact
 * **Nwaburu Emeka Christian** - [GitHub Profile](https://github.com/Christone007)
 * **Email:** exellentemy@gmail.com
 * **Solana Devnet Wallet Address:** `9yq8BgSG7XahLBKivhTiHKbrhXfHTA8Yk4xixgyg8yyd`
