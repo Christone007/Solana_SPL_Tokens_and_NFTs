@@ -29,8 +29,8 @@ Ensure you have the following tools installed globally on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com
-   cd scripts-solana-2
+   git clone https://github.com/Christone007/Solana_SPL_Tokens_and_NFTs
+   cd Solana_SPL_Tokens_and_NFTs
    ```
 
 2. **Install project dependencies:**
